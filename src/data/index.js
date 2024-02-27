@@ -31,51 +31,51 @@ export const NavLinks = [
   },
   {
     name: "Services",
-    url: "#",
+    url: "/",
     subItems: [
       {
         name: "Services",
-        url: "#",
+        url: "/",
       },
       {
         name: "Service Details",
-        url: "#",
+        url: "/",
       },
     ],
   },
   {
     name: "Portfolio",
-    url: "#",
+    url: "/",
     subItems: [
       {
         name: "Portfolio 01",
-        url: "#",
+        url: "/",
       },
       {
         name: "Portfolio Details",
-        url: "#",
+        url: "/",
       },
     ],
   },
   {
     name: "Blog",
-    url: "#",
+    url: "/",
     subItems: [
       {
         name: "Blog 01",
-        url: "#",
+        url: "/",
       },
       {
         name: "Blog 02",
-        url: "#",
+        url: "/",
       },
       {
         name: "Blog 03",
-        url: "#",
+        url: "/",
       },
       {
         name: "Blog Details",
-        url: "#",
+        url: "/",
       },
     ],
   },
@@ -253,21 +253,26 @@ export const BlogData = [
     date: "20 nov",
     url: "/blog-single",
     image: blogImage1,
-    content: "School life is not just about classes and exams; it's a vibrant tapestry woven with friendships, shared experiences, and the spirit of teamwork. In this blog, we delve into the essence of school life, exploring how students at Moi Girls High School - Eldoret embrace the values of Honor, Industry, and Courage in various extracurricular activities. From sports competitions to cultural events, we highlight the camaraderie that flourishes when students come together, supporting each other in their academic and personal journeys. Read more to discover the thriving community spirit that defines school life at Moi Girls High School.",
+    content:
+      "School life is not just about classes and exams; it's a vibrant tapestry woven with friendships, shared experiences, and the spirit of teamwork. In this blog, we delve into the essence of school life, exploring how students at Moi Girls High School - Eldoret embrace the values of Honor, Industry, and Courage in various extracurricular activities. From sports competitions to cultural events, we highlight the camaraderie that flourishes when students come together, supporting each other in their academic and personal journeys. Read more to discover the thriving community spirit that defines school life at Moi Girls High School.",
   },
   {
-    title: "Extravaganza of Talent: Unleashing Creativity in School Competitions",
+    title:
+      "Extravaganza of Talent: Unleashing Creativity in School Competitions",
     date: "20 nov",
     url: "/blog-single",
     image: blogImage2,
-    content: "At Moi Girls High School - Eldoret, we believe that every student possesses unique talents waiting to be discovered. In this blog, we explore the diverse array of extramural activities and competitions that allow students to showcase their individuality. From art and music to debate and science fairs, these events provide a platform for students to express themselves, learn new skills, and build confidence. Join us as we celebrate the talent extravaganza that unfolds within our school walls and witness the incredible journey of self-discovery through these enriching competitions.",
+    content:
+      "At Moi Girls High School - Eldoret, we believe that every student possesses unique talents waiting to be discovered. In this blog, we explore the diverse array of extramural activities and competitions that allow students to showcase their individuality. From art and music to debate and science fairs, these events provide a platform for students to express themselves, learn new skills, and build confidence. Join us as we celebrate the talent extravaganza that unfolds within our school walls and witness the incredible journey of self-discovery through these enriching competitions.",
   },
   {
-    title: "The Spirit of Healthy Competition: Sportsmanship on and off the Field",
+    title:
+      "The Spirit of Healthy Competition: Sportsmanship on and off the Field",
     date: "20 nov",
     url: "/blog-single",
     image: blogImage3,
-    content: "In this blog, we dive into the world of sports at Moi Girls High School - Eldoret, where the values of Honor, Industry, and Courage are not just words but the driving force behind every competition. From inter-house sports events to regional championships, our students exemplify the spirit of healthy competition. We explore how sportsmanship, discipline, and teamwork are instilled through these events, preparing students for the challenges they may face beyond the school gates. Discover how the thrill of the game becomes a lesson in resilience, leadership, and the joy of achieving common goals.",
+    content:
+      "In this blog, we dive into the world of sports at Moi Girls High School - Eldoret, where the values of Honor, Industry, and Courage are not just words but the driving force behind every competition. From inter-house sports events to regional championships, our students exemplify the spirit of healthy competition. We explore how sportsmanship, discipline, and teamwork are instilled through these events, preparing students for the challenges they may face beyond the school gates. Discover how the thrill of the game becomes a lesson in resilience, leadership, and the joy of achieving common goals.",
   },
   {
     title: "a deep understanding of our audience",
@@ -484,11 +489,12 @@ export const ServicePostData = [
     text:
       "Discover the world of knowledge at Moi Girls High School through our comprehensive array of subjects.",
     iconName: "mei-settings",
-    content: "Discover the world of knowledge at Moi Girls High School - Eldoret through our comprehensive array of subjects.\n" +
-        "\n" +
-        "Engage in a rich learning experience where each subject is a gateway to understanding, exploration, and growth. From the sciences to the humanities, we provide a curriculum that not only imparts knowledge but also fosters critical thinking and creativity.\n" +
-        "\n" +
-        "At Moi Girls High School - Eldoret, subjects aren't just lessons; they're opportunities to expand horizons and shape a well-rounded education. Join us on a journey where every subject is a stepping stone towards a brighter and more informed future.",
+    content:
+      "Discover the world of knowledge at Moi Girls High School - Eldoret through our comprehensive array of subjects.\n" +
+      "\n" +
+      "Engage in a rich learning experience where each subject is a gateway to understanding, exploration, and growth. From the sciences to the humanities, we provide a curriculum that not only imparts knowledge but also fosters critical thinking and creativity.\n" +
+      "\n" +
+      "At Moi Girls High School - Eldoret, subjects aren't just lessons; they're opportunities to expand horizons and shape a well-rounded education. Join us on a journey where every subject is a stepping stone towards a brighter and more informed future.",
     url: "diverse-subjects",
   },
   {
@@ -496,11 +502,12 @@ export const ServicePostData = [
     text:
       "We offer a holistic approach that nurtures both academic excellence and personal development.",
     iconName: "mei-transfer",
-    content: "Dive into the heart of education at Moi Girls High School - Eldoret with our thoughtfully curated and diverse curriculum.\n" +
-        "\n" +
-        "Our educational framework goes beyond traditional boundaries, offering a holistic approach that nurtures both academic excellence and personal development. Explore a curriculum designed to inspire curiosity, critical thinking, and a passion for learning.\n" +
-        "\n" +
-        "At Moi Girls High School - Eldoret, we believe in shaping well-rounded individuals equipped for the challenges of tomorrow. Join us in embracing a curriculum that not only imparts knowledge but also encourages innovation and lifelong learning. Your educational journey begins here, where the curriculum is a roadmap to a brighter and more fulfilling future.",
+    content:
+      "Dive into the heart of education at Moi Girls High School - Eldoret with our thoughtfully curated and diverse curriculum.\n" +
+      "\n" +
+      "Our educational framework goes beyond traditional boundaries, offering a holistic approach that nurtures both academic excellence and personal development. Explore a curriculum designed to inspire curiosity, critical thinking, and a passion for learning.\n" +
+      "\n" +
+      "At Moi Girls High School - Eldoret, we believe in shaping well-rounded individuals equipped for the challenges of tomorrow. Join us in embracing a curriculum that not only imparts knowledge but also encourages innovation and lifelong learning. Your educational journey begins here, where the curriculum is a roadmap to a brighter and more fulfilling future.",
     url: "diverse-curriculum",
   },
   {
@@ -508,11 +515,12 @@ export const ServicePostData = [
     text:
       "From sports to arts, we encourage students to explore, develop new skills, and build lasting friendships.",
     iconName: "mei-pie-chart",
-    content: "Embark on a journey beyond the classroom at Moi Girls High School - Eldoret with our vibrant Extra-Mural activities.\n" +
-        "\n" +
-        "Step into a world where learning extends beyond textbooks, and passions find a place to flourish. Our Extra-Mural programs offer a diverse range of activities, from sports to arts, encouraging students to explore, develop new skills, and build lasting friendships.\n" +
-        "\n" +
-        "At Moi Girls High School - Eldoret, we believe in the holistic development of every individual. Join us in embracing the spirit of Extra-Mural enrichment, where every activity is a stepping stone towards personal growth, teamwork, and a well-rounded education. Unleash your potential and make the most of your high school journey with us!",
+    content:
+      "Embark on a journey beyond the classroom at Moi Girls High School - Eldoret with our vibrant Extra-Mural activities.\n" +
+      "\n" +
+      "Step into a world where learning extends beyond textbooks, and passions find a place to flourish. Our Extra-Mural programs offer a diverse range of activities, from sports to arts, encouraging students to explore, develop new skills, and build lasting friendships.\n" +
+      "\n" +
+      "At Moi Girls High School - Eldoret, we believe in the holistic development of every individual. Join us in embracing the spirit of Extra-Mural enrichment, where every activity is a stepping stone towards personal growth, teamwork, and a well-rounded education. Unleash your potential and make the most of your high school journey with us!",
     url: "extra-mural",
   },
 ];
@@ -668,7 +676,8 @@ import aboutOne02 from "@/images/about/about-2.jpg";
 
 export const AboutOneData = {
   sectionContent: {
-    title: "Elevating Minds, Inspiring Futures – Crafting Exceptional Educational Journeys.",
+    title:
+      "Elevating Minds, Inspiring Futures – Crafting Exceptional Educational Journeys.",
     subTitle: "get to know us",
   },
   gallery: [aboutOne01, aboutOne02],
@@ -833,7 +842,7 @@ export const TestimonialsOneData = {
       designation: "Director",
       image: testimonial01,
       content:
-        "\"Studying at MoiGee has been a transformative experience. The academic rigor combined with a nurturing environment has truly shaped my perspective on education. The diversity of students and the exceptional teaching staff make this school a haven for holistic growth. From the bustling streets of Nairobi to the serene landscapes of Eldoret, Moi Girls High School provides an education that transcends geographical boundaries.",
+        '"Studying at MoiGee has been a transformative experience. The academic rigor combined with a nurturing environment has truly shaped my perspective on education. The diversity of students and the exceptional teaching staff make this school a haven for holistic growth. From the bustling streets of Nairobi to the serene landscapes of Eldoret, Moi Girls High School provides an education that transcends geographical boundaries.',
       date: "25 nov, 2018",
     },
     {
@@ -914,9 +923,9 @@ export const HistoryData = {
       designation: "1928 - 1957",
       image: testimonial01,
       content:
-          "Moi Girls High School - Eldoret has a captivating history dating back to 1928 when it was first established as a European Primary School to cater to the children of white settlers in the White Highlands. Originally named Highlands Primary School, the institution underwent several transformations, reflecting the changing landscape of education in the region.\n" +
-          "\n" +
-          "In the 1930s, the school found a new home across the Sosiani River, now known as Hill School, and attempted to launch a teacher training college. Despite initial challenges, the need for a girls' high school for the white settlers led to the establishment of the present school in 1954, initially named New Girls' High School. The academic and sports triumphs during the 1950s and 1960s laid the groundwork for a legacy of excellence.",
+        "Moi Girls High School - Eldoret has a captivating history dating back to 1928 when it was first established as a European Primary School to cater to the children of white settlers in the White Highlands. Originally named Highlands Primary School, the institution underwent several transformations, reflecting the changing landscape of education in the region.\n" +
+        "\n" +
+        "In the 1930s, the school found a new home across the Sosiani River, now known as Hill School, and attempted to launch a teacher training college. Despite initial challenges, the need for a girls' high school for the white settlers led to the establishment of the present school in 1954, initially named New Girls' High School. The academic and sports triumphs during the 1950s and 1960s laid the groundwork for a legacy of excellence.",
       date: "25 nov, 2018",
     },
     {
@@ -924,9 +933,9 @@ export const HistoryData = {
       designation: "1965 - 1978",
       image: testimonial02,
       content:
-          "With Kenya gaining independence in 1963, followed by self-rule in 1964, Moi Girls High School - Eldoret experienced a shift in its demographic as settlers began relocating. In response, the school opened its doors to the first African students in 1965, aligning with the government's integration policy. This marked a pivotal moment in the school's history, reflecting a commitment to inclusivity.\n" +
-          "\n" +
-          "Hon. D. T. arap Moi, who became the school board chairman in 1965, played a significant role in steering the institution through this period of transition. Under his leadership, the school maintained its commitment to academic excellence and sportsmanship. His enduring chairmanship continued until 2007 when he formally retired.",
+        "With Kenya gaining independence in 1963, followed by self-rule in 1964, Moi Girls High School - Eldoret experienced a shift in its demographic as settlers began relocating. In response, the school opened its doors to the first African students in 1965, aligning with the government's integration policy. This marked a pivotal moment in the school's history, reflecting a commitment to inclusivity.\n" +
+        "\n" +
+        "Hon. D. T. arap Moi, who became the school board chairman in 1965, played a significant role in steering the institution through this period of transition. Under his leadership, the school maintained its commitment to academic excellence and sportsmanship. His enduring chairmanship continued until 2007 when he formally retired.",
       date: "1 jan, 2024",
     },
     {
@@ -934,7 +943,7 @@ export const HistoryData = {
       designation: "1978 - Present",
       image: testimonial03,
       content:
-          "In 1978, the school underwent a significant transformation, transitioning from 'The Highlands School' to its present name, 'Moi Girls' High School - Eldoret.' This renaming was a tribute to Hon. D. T. arap Moi, who had risen to become the President of the Republic of Kenya that same year. The institution, now firmly rooted in its legacy, continues to honor the ideals of its founding years while embracing diversity, academic excellence, and a commitment to shaping the leaders of tomorrow.",
+        "In 1978, the school underwent a significant transformation, transitioning from 'The Highlands School' to its present name, 'Moi Girls' High School - Eldoret.' This renaming was a tribute to Hon. D. T. arap Moi, who had risen to become the President of the Republic of Kenya that same year. The institution, now firmly rooted in its legacy, continues to honor the ideals of its founding years while embracing diversity, academic excellence, and a commitment to shaping the leaders of tomorrow.",
       date: "25 nov, 2023",
     },
   ],
