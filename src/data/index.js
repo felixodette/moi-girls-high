@@ -489,7 +489,7 @@ export const ServicePostData = [
         "Engage in a rich learning experience where each subject is a gateway to understanding, exploration, and growth. From the sciences to the humanities, we provide a curriculum that not only imparts knowledge but also fosters critical thinking and creativity.\n" +
         "\n" +
         "At Moi Girls High School - Eldoret, subjects aren't just lessons; they're opportunities to expand horizons and shape a well-rounded education. Join us on a journey where every subject is a stepping stone towards a brighter and more informed future.",
-    url: "#",
+    url: "diverse-subjects",
   },
   {
     title: "Diverse Curriculum",
@@ -501,7 +501,7 @@ export const ServicePostData = [
         "Our educational framework goes beyond traditional boundaries, offering a holistic approach that nurtures both academic excellence and personal development. Explore a curriculum designed to inspire curiosity, critical thinking, and a passion for learning.\n" +
         "\n" +
         "At Moi Girls High School - Eldoret, we believe in shaping well-rounded individuals equipped for the challenges of tomorrow. Join us in embracing a curriculum that not only imparts knowledge but also encourages innovation and lifelong learning. Your educational journey begins here, where the curriculum is a roadmap to a brighter and more fulfilling future.",
-    url: "#",
+    url: "diverse-curriculum",
   },
   {
     title: "Extra-Mural",
@@ -513,7 +513,7 @@ export const ServicePostData = [
         "Step into a world where learning extends beyond textbooks, and passions find a place to flourish. Our Extra-Mural programs offer a diverse range of activities, from sports to arts, encouraging students to explore, develop new skills, and build lasting friendships.\n" +
         "\n" +
         "At Moi Girls High School - Eldoret, we believe in the holistic development of every individual. Join us in embracing the spirit of Extra-Mural enrichment, where every activity is a stepping stone towards personal growth, teamwork, and a well-rounded education. Unleash your potential and make the most of your high school journey with us!",
-    url: "#",
+    url: "extra-mural",
   },
 ];
 
