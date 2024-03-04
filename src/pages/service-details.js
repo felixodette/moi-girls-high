@@ -7,15 +7,21 @@ import CallToActionOne from "@/components/call-to-action-one";
 import MenuContextProvider from "@/context/menu-context";
 import SearchContextProvider from "@/context/search-context";
 import HeaderTwo from "@/components/header-two";
+import { useLocation } from "@reach/router";
 
 const ServiceDetailsPage = () => {
+  const location = useLocation();
+  const urlParams = new URLSearchParams(location.search);
+  const url = urlParams.get("url");
+
+  console.log("blaaaaa");
   return (
     <MenuContextProvider>
       <SearchContextProvider>
         <Layout PageTitle="Service Details Page">
           <HeaderTwo />
           <PageBanner title="Service Details" name="Service" />
-          <ServiceDetails />
+          <ServiceDetails url={url} />
           <CallToActionOne extraClassName="ready" />
           <Footer />
         </Layout>
