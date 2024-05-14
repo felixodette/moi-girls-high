@@ -15,7 +15,7 @@ const ServiceCardOne = ({ services }) => {
   
   // Service Details component
   const ServiceDetails = ({ serviceId }) => {
-    // Fetch service details based on serviceId and display
+    // Fetch service details based on serviceId and displayyy
     return (
       <div>
         <h3>{service.title}</h3>
